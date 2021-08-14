@@ -7,6 +7,30 @@ Forked from the main authors. My additions: Double UNet, UNet++, Changed Archite
     <td colspan="4">Author Results</td>
     <td colspan="6">My Proposed Model Results</td>
   </tr>
+  <tr>
+    <td>AE-1</td>
+    <td>AE-3</td>
+    <td>UNet-1</td>
+    <td>UNet-3</td>
+    <td>UNet-1</td>
+    <td>Unet-3</td>
+    <td>UNet++ -1</td>
+    <td>UNet++ -3</td>
+    <td>DUNet-1</td>
+    <td>DUNet-3</td>
+  </tr>
+  <tr>
+    <td>4.4981 ± 0.1753 </td>
+    <td>3.2935 ± 0.1171</td>
+    <td>2.9203 ± 0.1520</td>
+    <td>2.0303 ± 0.1360</td>
+    <td>3.7724 ± 0.1425</td>
+    <td>2.5411 ± 0.1224</td>
+    <td>3.1914 ± 0.1314</td>
+    <td>2.2214 ± 0.1216</td>
+    <td>3.2245 ± 0.1614</td>
+    <td>1.9711 ± 0.0841</td>
+  </tr>
 </table>
 
 | AE-1 | AE-3 | UNet-1 | UNet-3| UNet-1 | UNet-3 | UNet++ -1 | UNet++ -3 | DUNet-1 | DUNet-3 |
