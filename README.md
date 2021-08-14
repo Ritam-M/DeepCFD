@@ -2,8 +2,13 @@
 
 Forked from the main authors. My additions: Double UNet, UNet++, Changed Architectures in AutoEncoders. Future additions: Diverse dataset of different flows, Transformers, CNN+Attention based structures, and GAN Implementations.
 
-|||Authors|||| My Implementations||||
-|-|-|-|-|-|-|-|-|-|-|
+<table>
+  <tr>
+    <td colspan="4">Author Results</td>
+    <td colspan="6">My Proposed Model Results</td>
+  </tr>
+</table>
+
 | AE-1 | AE-3 | UNet-1 | UNet-3| UNet-1 | UNet-3 | UNet++ -1 | UNet++ -3 | DUNet-1 | DUNet-3 |
 |------|------|------|------|------|------|------|------|------|------|
 | 4.4981 ± 0.1753 | 3.2935 ± 0.1171 | 2.9203 ± 0.1520 | 2.0303 ± 0.1360 | 3.7724 ± 0.1425 | 2.5411 ± 0.1224 | 3.1914 ± 0.1314 | 2.2214 ± 0.1216 | 3.2245 ± 0.1614|1.9711 ± 0.0841 |
