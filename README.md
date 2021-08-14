@@ -4,8 +4,11 @@ Forked from the main authors. My additions: Double UNet, UNet++, Changed Archite
 
 | AE-1 | AE-3 | UNet-1 | UNet-3| UNet-1 | UNet-3 | UNet++ -1 | UNet++ -3 | DUNet-1 | DUNet-3 |
 |------|------|------|------|------|------|------|------|------|------|
-| 4.4981 ± 0.1753 | 3.2935 ± 0.1171 | 2.9203 ± 0.1520 | 2.0303 ± 0.1360 | 3.7724 ± 0.1425 | 2.5411 ± 0.1224 | 3.1914 ± 0.1314 | 2.2214 ± 0.1216 | 3.2245 ± 0.1614|1.9711 ± 0.0841 | 
+| 4.4981 ± 0.1753 | 3.2935 ± 0.1171 | 2.9203 ± 0.1520 | 2.0303 ± 0.1360 | 3.7724 ± 0.1425 | 2.5411 ± 0.1224 | 3.1914 ± 0.1314 | 2.2214 ± 0.1216 | 3.2245 ± 0.1614|1.9711 ± 0.0841 |
+
+The first 4 columns are the authors results, the next 6 columns are results of my implementations.
  
+ ---
 
 Computational Fluid Dynamics (CFD) simulation by the numerical solution of the Navier-Stokes equations is an essential tool in a wide range of applications from engineering design to climate modeling. However, the computational cost and memory demand required by CFD codes may become very high for flows of practical interest, such as in aerodynamic shape optimization. This expense is associated with the complexity of the fluid flow governing equations, which include non-linear partial derivative terms that are of difficult solution, leading to long computational times and limiting the number of hypotheses that can be tested during the process of iterative design. Therefore, we propose DeepCFD: a convolutional neural network (CNN) based model that efficiently approximates solutions for the problem of non-uniform steady laminar flows. The proposed model is able to learn complete solutions of the Navier-Stokes equations, for both velocity and pressure fields, directly from ground-truth data generated using a state-of-the-art CFD code. Using DeepCFD, we found a speedup of up to 3 orders of magnitude compared to the standard CFD approach at a cost of low error rates.
 
