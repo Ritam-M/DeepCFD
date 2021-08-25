@@ -88,7 +88,7 @@ def create_dense(in_channels, out_channels):
     
     return nn.Sequential(*layers)
 
-  class Attention_block(nn.Module):
+class Attention_block(nn.Module):
     def __init__(self,F_g,F_l,F_int):
         super(Attention_block,self).__init__()
         self.W_g = nn.Sequential(
