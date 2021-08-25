@@ -1,6 +1,6 @@
 # DeepCFD
 
-Forked from the main authors. My additions: Double UNet, UNet++, Changed Architectures in AutoEncoders. Future additions: Diverse dataset of different flows, Transformers, CNN+Attention based structures, and GAN Implementations.
+Forked from the main authors. My additions: Double UNet, UNet++, CNN+Attention based structures, Changed Architectures in AutoEncoders. Future additions: Diverse dataset of different flows, Transformers, and GAN Implementations.
 
 <table>
   <tr>
