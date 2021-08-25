@@ -1,5 +1,5 @@
 
-class DUNet_Attn_Ex(nn.Module):
+class Att_DUNet_Ex(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size=3, filters=[16, 32, 64], layers=3,
                  weight_norm=True, batch_norm=True, activation=nn.ReLU, final_activation=None):
         super().__init__()
